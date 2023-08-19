@@ -13,3 +13,4 @@
         - `EXPIRES_IN` = 30
 # How to Run
 - Run `uvicorn app.main:app --reload` command in root directory
+- Open your internet browser and go to `http://localhost:8000/docs`
