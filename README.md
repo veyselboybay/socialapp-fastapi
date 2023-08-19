@@ -7,7 +7,7 @@
 - Download or git clone `<project-url>`
 - After having the code in your machine, 
     1. Run `pip install -r requirements.txt` in root directory -> this will install all necessary dependencies
-    2. Create an `.env` file inside the app directory with the following content:
+    2. Create an `.env` file inside the root directory with the following content:
         -  `DB_CONNECTION`= `<your-db-connection-url>` -> (e.g. -> postgresql://`<username>`:`<password>`@localhost:5432/`<db-name>`)
         - `SECRET` = `<your-secret>` -> This one is for jwt
         - `ALGORITHM` = HS256
