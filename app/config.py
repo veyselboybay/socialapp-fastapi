@@ -6,6 +6,6 @@ class Settings(BaseSettings):
     algorithm: str
     expires_in: int
 
-    model_config = SettingsConfigDict(env_file='./app/.env')
+    model_config = SettingsConfigDict(env_file='.env')
 
 settings = Settings()
